@@ -87,8 +87,26 @@ main {
   justify-content: center;
   align-items: center;
   font-family: Manrope;
+  font-size: 15px;
 }
 .header {
   background-image: url(images/pattern-circles.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 10rem;
+}
+.hero {
+  padding-top: 2rem;
+}
+.hero-background {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  border-radius: 16px;
+}
+.hero p {
+  padding: 1rem;
 }
