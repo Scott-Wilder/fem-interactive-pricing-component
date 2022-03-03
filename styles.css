@@ -79,6 +79,7 @@ select {
 
 /*Mobile View*/
 main {
+  background-color: hsl(230, 100%, 99%);
   background-image: url(images/bg-pattern.svg);
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -101,11 +102,26 @@ main {
 }
 .hero {
   padding-top: 2rem;
+  min-width: 300px;
 }
-.hero-background {
+.hero-background-top {
   background-color: hsl(0, 0%, 100%);
   padding: 1rem;
   border-radius: 16px;
+  margin-bottom: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero-background-bottom {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .hero p {
   padding: 1rem;
