@@ -35,8 +35,18 @@
       </div>
       <article class="hero">
         <div class="hero-background-top">
-          <p>Pageviews</p>
-          <p>$ /month</p>
+          <p><span id="demo"></span>k Pageviews</p>
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="myRange"
+            />
+          </div>
+          <p>$<span id="demo2"></span> /month</p>
           <p>Monthly Billing</p>
           <p>Yearly Billing 25%</p>
         </div>
@@ -55,4 +65,5 @@
       >. Coded by <a href="#">Scott Wilder</a>.
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
