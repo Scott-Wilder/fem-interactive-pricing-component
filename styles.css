@@ -147,14 +147,30 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  color: hsl(225, 20%, 60%);
+}
+#percentage {
+  margin-left: 0.5rem;
+  padding: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: hsl(14, 92%, 95%);
+  color: hsl(15, 100%, 70%);
+  border-radius: 25px;
+}
+.slidecontainer {
+  width: 100%;
 }
 .slider {
   -webkit-appearance: none; /* Override default CSS styles */
   width: 100%;
   height: 15px;
   border-radius: 5px;
-  background: hsl(224, 65%, 95%);
+  background: linear-gradient(
+    90deg,
+    hsl(224, 65%, 95%) 60%,
+    hsl(224, 65%, 95%) 60%
+  );
   outline: none;
   opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
   -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
@@ -176,11 +192,13 @@ main {
   cursor: pointer;
 }
 .slider::-moz-range-thumb {
-  width: 23px;
-  height: 25px;
+  width: 40px;
+  height: 30px;
   border-radius: 50%;
   background-color: hsl(174, 86%, 45%);
   background-image: url("images/icon-slider.svg");
+  box-shadow: 0px 1px 10px 1px hsl(174, 86%, 45%);
+  border: none;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
