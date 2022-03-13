@@ -102,7 +102,7 @@ main {
 }
 .hero {
   padding-top: 2rem;
-  min-width: 300px;
+  min-width: 380px;
 }
 .hero-background-top {
   background-color: hsl(0, 0%, 100%);
@@ -285,8 +285,14 @@ p#dollar {
   display: flex;
   align-items: center;
 }
+#discount-text {
+  display: none;
+}
 /*Desktop-View*/
 @media (min-width: 900px) {
+  #discount-text {
+    display: contents;
+  }
   main {
     background-size: contain;
   }
