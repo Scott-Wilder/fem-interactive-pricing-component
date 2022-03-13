@@ -41,8 +41,8 @@ Here are the different page view ranges and the corresponding monthly price tota
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactive-pricing-component-TH04H2UhI)
+- Live Site URL: [Add live site URL here](https://scott-wilder.github.io/)
 
 ## My process
 
