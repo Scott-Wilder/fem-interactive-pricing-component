@@ -20,6 +20,7 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        background-color: hsl(230, 100%, 99%);
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -40,7 +41,7 @@
             <input
               type="range"
               min="1"
-              max="100"
+              max="5"
               value="1"
               class="slider"
               id="myRange"
@@ -52,17 +53,18 @@
           <div class="billing">
             <p id="month">Monthly Billing</p>
             <label class="switch">
-              <input type="checkbox" />
+              <input type="checkbox" id="checkbox" />
               <span class="toggle round"></span>
             </label>
             <p id="year">Yearly Billing<span id="percentage"> -25%</span></p>
           </div>
         </div>
         <div class="hero-background-bottom">
-          <p id="one">Unlimited websites</p>
-          <p id="one">100% data ownership</p>
-          <p id="one">Email reports</p>
-
+          <div class="desktop-1">
+            <p id="one">Unlimited websites</p>
+            <p id="one">100% data ownership</p>
+            <p id="one">Email reports</p>
+          </div>
           <button>Start my trial</button>
         </div>
       </article>
@@ -74,5 +76,5 @@
       >. Coded by <a href="#">Scott Wilder</a>.
     </div>
   </body>
-  <script src="script.js"></script>
+  <script src="main.js"></script>
 </html>

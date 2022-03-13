@@ -108,7 +108,7 @@ main {
   background-color: hsl(0, 0%, 100%);
   padding: 1rem;
   border-radius: 16px;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -280,4 +280,46 @@ button {
   color: hsl(226, 100%, 87%);
   border: 0px;
   font-weight: 600;
+}
+p#dollar {
+  display: flex;
+  align-items: center;
+}
+/*Desktop-View*/
+@media (min-width: 900px) {
+  main {
+    background-size: contain;
+  }
+  .hero {
+    min-width: 800px;
+  }
+  p#dollar {
+    order: -1;
+    font-weight: 800;
+    font-size: 38px;
+    margin-left: 25rem;
+    margin-top: -6rem;
+  }
+  p#pageviews {
+    order: -1;
+    font-weight: 800;
+    font-size: 30px;
+    margin-right: 25rem;
+    margin-top: 10rem;
+  }
+  .slider {
+    margin-bottom: 5rem;
+  }
+  .hero-background-bottom {
+    flex-direction: row;
+  }
+  .desktop-1 {
+    margin-right: 15rem;
+  }
+  .desktop-2 {
+    flex-direction: row;
+  }
+  .billing {
+    margin-bottom: 10rem;
+  }
 }

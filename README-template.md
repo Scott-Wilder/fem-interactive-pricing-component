@@ -97,6 +97,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Example resource 1](https://www.w3schools.com/howto/howto_js_rangeslider.asp) - This helped me with creating the slider and the JS behind it.
 - [Example resource 2](https://www.w3schools.com/howto/howto_css_switch.asp) - This taught me how to do the toggle switch.
 - [Example resource 3](https://www.youtube.com/watch?v=BrpiNUf2XCk) - This helped with the dynamic background color range slider effect.
+- [Example resource 3](https://webdesign.tutsplus.com/tutorials/a-comprehensive-guide-to-flexbox-ordering-reordering--cms-31564) - This helped me with reorder flex elements when going from mobile to desktop.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
